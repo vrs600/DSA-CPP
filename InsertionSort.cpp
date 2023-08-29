@@ -16,20 +16,14 @@ void printArray(int array[], int size)
 
 void insertionSort(int array[], int size)
 {
-	// let's assume that the first element of the array is already sorted
-	// then we will start from the send element
-
-	for (int i = 1; i < size; i++)
+	for (int i = 0; i < size; i++)
 	{
-		// starting from the send element of index '1'
-		for (int j = i; j > 0; j--)
+		// let's assume that the first element of the array is
+		//  already sorted
+
+		for (int j = 1; j  > 0; j++)
 		{
-			if (array[j] < array[j - 1])
-			{
-				int temp = array[j];
-				array[j] = array[j - 1];
-				array[j - 1] = temp;
-			}
+
 		}
 	}
 }
