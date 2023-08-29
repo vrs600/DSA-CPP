@@ -1,3 +1,11 @@
 {
-    "BracketHighlighter.enableExtension": false
+    "BracketHighlighter.enableExtension": true,
+    "files.associations": {
+        "iostream": "cpp",
+        "iosfwd": "cpp"
+    },
+    "cSpell.words": [
+        "Sutar",
+        "Vinayak"
+    ]
 }
